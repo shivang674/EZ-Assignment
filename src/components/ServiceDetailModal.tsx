@@ -1,9 +1,10 @@
 import { X, ArrowLeft, ArrowRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Button } from './ui/button';
-import filmImage from 'figma:asset/5653b12b0d27dfd22d0ad4c4d5bfddfe854fb19b.png';
-import brandingImage from 'figma:asset/62aa2712c1ffb6d5436d9286c7879615fa8a6e75.png';
-import artImage from 'figma:asset/b3e894f418c48b4c2ae29914204036d09d3556a1.png';
+import filmImage from '../assets/FilmProduction.png';
+import brandingImage from '../assets/Branding.png';
+import artImage from '../assets/ArtCuration.png';
+
 
 interface ServiceDetailModalProps {
   service: 'film' | 'branding' | 'art' | null;

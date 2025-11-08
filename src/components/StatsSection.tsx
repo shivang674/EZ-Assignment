@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import statsImage from 'figma:asset/ee654896a3fd5f20a59995c69364d101d7902bc1.png';
+import statsImage from '../assets/AboutUs.png';
 
 export function StatsSection() {
   const stats = [

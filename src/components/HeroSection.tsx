@@ -1,4 +1,4 @@
-import heroImage from 'figma:asset/7898ac55826d2a39158e47dbb99dd063eb3ec2f9.png';
+import heroImage from '../assets/OpenNavigation.png';
 
 export function HeroSection() {
   return (
